@@ -1,0 +1,49 @@
+{
+  "name": "create-vechain-react",
+  "packageManager": "yarn@3.6.1",
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-toast": "^1.1.5",
+    "@tanstack/react-query": "^5.24.1",
+    "@vechain.energy/dapp-kit-hooks": "^1.2.1",
+    "@vechain/dapp-kit": "^1.0.11",
+    "@vechain/dapp-kit-react": "^1.0.11",
+    "@vechain/web3-providers-connex": "^1.1.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "ethers": "^6.11.1",
+    "lucide-react": "^0.341.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7",
+    "viem": "2.x",
+    "wagmi": "^2.5.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-router-dom": "^5.3.3",
+    "assert": "^2.0.0",
+    "autoprefixer": "^10.4.17",
+    "browserify-zlib": "^0.2.0",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "parcel": "^2.11.0",
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "postcss": "^8.4.35",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.1.0",
+    "tailwindcss": "^3.4.1",
+    "url": "^0.11.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  }
+}
