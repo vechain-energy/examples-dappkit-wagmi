@@ -1,4 +1,4 @@
-This is an example project that serves as a template for new VeChain web applications.
+This is an example project that serves as a template for new Vechain web applications.
 
 # Libraries
 
@@ -20,10 +20,10 @@ It provides developers with intuitive building blocks to build their Ethereum ap
 
 # Anatomy
 
+* `App.tsx` configures the providers with dApp-Kit and Wagmi.
 * `contracts/` contains an example definition for the VTHO contract, including ABI and address.
 * `AppRouter.tsx` establishes the routing for pages.
 * `pages/` serves as a group for navigable page components.
-* `App.tsx` configures the providers with dApp-Kit and Wagmi.
 * `ui/Auth.tsx` provides a sample authentication component that relies on Wagmi.
-* `hooks/useWagmiConfig.ts` provides a valid VeChain configuration by connecting dApp-Kit, Connex, and Wagmi, and injects ENS support for vet.domains.
+* `hooks/useWagmiConfig.ts` provides a valid VeChain configuration by connecting dApp-Kit, Connex, and Wagmi, and injects ENS support for [vet.domains](https://vet.domains).
 * `.env` allows you to configure your application without hard coding things.
